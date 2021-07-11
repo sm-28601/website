@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="table.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+    <script src="https://kit.fontawesome.com/7c57659096.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Otomanopee+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#achivement">ACHIVEMENTS</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>           
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="main">
+            <h1 class="headings" style="text-shadow: 0 0 20px rgb(255,45,45)">I AM <br> SAHIL MAURYA</h1>
+            <button class="btn">
+                Let's Go
+            </button>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="headings" style="background-color: rgba(0,0,0,0.4);" >ABOUT</h1>
+        <div id="pic">            
+        
+            <img src="images/20201226_150957.jpg" alt="">
+            <div id="intro">
+                <h2>Hello!</h2>
+                <p id="skill">Front End Dev | Python Enthusiast</p>
+                <p>My name is Sahil Maurya . I'm currently studying in class XII at 
+                    D.A.V Public School,Bhatgaon . I'm
+                    deeply passionate about Website development & innovations.Also,
+                     I like pushing myself and taking up new challenges. </p>
+                <h3>My Skills</h3>
+                <div class="icon">
+                    <ul class="list">
+                        <i class="fab fa-python fa-3x" aria-hidden="true"></i>
+                        <i class="fab fa-css3 fa-3x" aria-hidden="true"></i>
+                        <i class="fab fa-html5 fa-3x" aria-hidden="true"></i>                        
+                    </ul>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h1 class="headings">ACHIVEMENTS</h1>
+        <div class="gallery">
+            <img src="images/python.png" alt="">
+            <img src="images/html.jpg" alt="">
+            <img src="images/certi.png" alt="">
+            <img src="images/data.png" alt="">
+            <img src="images/skil.jpg" alt="">
+            <img src="images/stock.jpg" alt="">
+        </div>  
+    </section>
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="icons/web.png" alt="">
+                <h1 class="headings">Website Design</h1>
+                <p>I develop websites that build businesses! I believe, 
+                    there is no room for a one-size-fits-all approach in web development services. 
+                    Each website is unique and it needs a personal touch to meet specific business needs.
+                    I effectively transform your idea into reality.</p>
+            </div>
+            <div class="box">
+                <img src="icons/ux.png" alt="">
+                <h1 class="headings">UX/UI <br> Design</h1>
+                <p>No matter how powerful or innovative your 
+                    application idea is, without a solid, well-thought user 
+                    interface design, it won’t achieve success easily. 
+                    In today’s competitive world, only a good user
+                     experience will define the future of the app</p>
+            </div>
+            <div class="box">
+                <img src="icons/digital.png" alt="">
+                <h1 class="headings">Digital Marketing</h1>
+                <p>
+                    I offer customized solutions to a global clientele. 
+                    My data & results-driven internet marketing strategies help to deliver 
+                    the right message to the right people through the right platform and at the right time.
+                    Seamlessly combining keyword research, target audience analysis & quality content creation,
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" 
+            placeholder="Enter Your Name">
+            <input type="text" name="email" class="input" 
+            placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" 
+            rows="10" placeholder="Enter Your Message"></textarea>
+            <button type="button" id="send">Send</button>
+        </form>
+        
+    </section>
+</body>
+</html>
